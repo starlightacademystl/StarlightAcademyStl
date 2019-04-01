@@ -1,0 +1,94 @@
+* {box-sizing: border-box;}
+
+body { 
+  background-color: white;
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+}
+ 
+
+/* NAVBAR */
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  #logo {
+    font-family: 'Sacramento', cursive;
+    color: black;
+    font-size: 70px;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+ 
+  #pay-tuition, #contact-us, #testimonials, #program-dropdown, #about-dropdown {
+    float: right;
+    padding-right: 15px;
+  }
+
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 45px 10px;
+    transition: 0.4s;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(138, 209, 209, 0.746);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* MAIN TEXT AREA */
+
+  /* HOME PAGE Styling */
+  .container {
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+  
+  #main-classroom-title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+    margin-bottom: 15px;
+    color:  rgb(114, 182, 182);
+    text-align: center;
+  }

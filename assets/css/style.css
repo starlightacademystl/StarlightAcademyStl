@@ -1,0 +1,272 @@
+* {box-sizing: border-box;}
+
+body { 
+  background-image: url("../images/plush-design-studio-483666-unsplash.jpg");
+  background-size: contain;
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+}
+ 
+
+/* NAVBAR */
+.nav-list {
+    list-style-type: none;
+    padding-top: 21px;
+    padding-left: 5px;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  /* #logo {
+    font-family: 'Sacramento', cursive;
+    color: black;
+    font-size: 70px;
+    transition: 0.4s;
+    text-decoration: none;
+  } */
+  
+  #pay-tuition, #contact-us, #testimonials, #program-dropdown, #about-dropdown, #home-button {
+    float: right;
+    padding-right: 15px;
+  }
+
+  /* li {
+      text-align: left;
+  } */
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 60px 10px;
+    transition: 0.4s;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+  }
+  
+  /* FIGURE OUT WEBKIT AND HOVER */
+  li a:hover, .dropdown:hover .dropbtn {
+    /* background-color: rgba(58, 241, 232, 0.897); */
+    color: #6170f5;
+    -webkit-transform: scale(1.3);
+  }
+
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {
+    /* background-color:rgb(240, 120, 224); */
+    color: rgb(240, 120, 224);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* MAIN TEXT AREA */
+
+  /* HOME PAGE Styling */
+  .container {
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+  }
+  
+  #main-body-title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+    margin-bottom: 15px;
+    color:  rgb(66, 194, 233);
+    text-align: center;
+  }
+  #pg-1, #pg-2 {
+    font-family: 'Patrick Hand SC', cursive;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-size: 25px;
+    
+  }
+  #phone-number {
+    color:  rgb(228, 145, 96);
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+/* Our Team Styling */
+#manage-team-title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+    margin-bottom: 15px;
+    color:  rgb(66, 194, 233);
+    text-align: center;
+  }
+
+  #center-dir-title {
+    font-family: 'Barlow', sans-serif;
+    color: rgb(245, 183, 67);
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  img {
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  #description-1{
+    font-family: 'Patrick Hand SC', cursive;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 15px;
+  }
+
+ /* Curriculum Styling */
+ #main-body-title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 50px;
+    margin-bottom: 15px;
+    color:  rgb(66, 194, 233);
+    text-align: center;
+  }
+
+  #curriculum-goals {
+    font-family: 'Barlow', sans-serif;
+    color: rgb(41, 190, 53);
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    
+  }
+
+  #curriculum-list {
+    list-style-type: disc;
+    margin-left: 75px;
+    text-align: left;
+    line-height: 30px;
+    color: #6170f5;
+    font-size: 18px;
+  }
+
+  #pg-1, #pg-2 {
+    font-family: 'Patrick Hand SC', cursive;
+    letter-spacing: 2px;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+/* CLASSROOM STYLING */
+img {
+    height: 400px;
+    width: auto;
+  }
+ 
+   #main-classroom-title{
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color:  rgb(66, 194, 233);
+    font-size: 50px;
+  }
+  .card {
+    float: left;
+    margin: 10px;
+  }
+  .card-title {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color:  rgb(245, 183, 67);
+    font-size: 18px;
+  }
+
+  /* PROGRAMS */
+
+  /* INFANTS STYLING */
+  #infant-title {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(66, 194, 233);
+    font-size: 50px;
+  }
+
+  #inf-1, #inf-2, #inf-3 {
+    font-family: 'Patrick Hand SC', cursive;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 40px;
+  }
+  #infant-benefits {
+    font-family: 'Barlow', sans-serif;
+    color: rgb(41, 190, 53);
+    font-size: 25px;
+    text-align: left;
+    margin-left: 51px;
+    line-height: 40px;
+  }
+  #benefits {
+    list-style-type: disc;
+    margin-left: 75px;
+    text-align: left;
+    font-size: 18px;
+    color: #6170f5;
+    line-height: 30px;
+  }
+
+  /* CONTACT US STYLING */
+  #contact-title {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(66, 194, 233);
+    font-size: 50px;
+  }
+  #contact-number {
+    font-family: 'Barlow', sans-serif;
+    color: rgb(245, 183, 67);
+    font-size: 25px;
+    text-align: center;
+    margin-left: 51px;
+    line-height: 40px;
+  }
+
+  /* FOOTER */
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: rgb(34, 170, 45);
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 19px;
+  }
